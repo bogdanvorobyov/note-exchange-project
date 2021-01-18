@@ -1,0 +1,121 @@
+.hide{ 
+    display: none;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .main-container{ 
+    height: 100%;
+  
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .hide{
+    display: none;
+  }
+  
+  .active{ 
+    color:red;
+  }
+  .body{ 
+    width: 100vh;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .collapse{ 
+    /* justify-content: space-around; */
+    font-size: 1.3rem;
+    height: 8vh;
+  }
+  .main{ 
+    display: flex;
+    text-align: center;
+    margin: 8vh auto;
+    
+  }
+  .nav-item{
+    margin-left: 2rem;
+  }
+  .div-nav, .navbar-dark{ 
+    background-color: rgb(187, 187, 187);
+  }
+  .footer{ 
+    vertical-align: middle;
+    line-height: 8vh;
+    min-height: 8vh;
+    background-color: rgb(187, 187, 187);
+    font-size: 1.3rem;
+    text-align: center;
+    flex: 0 0 auto;
+  }
+  .about{ 
+    margin:  2.1em auto;
+    min-height: 74vh
+  
+  }
+  .note{ 
+    min-height: calc(82vh);
+    text-align: center;
+    
+  }
+  .main-first{ 
+    height: 74vh;
+  }
+  .text-main{ 
+    font-size: 1.2em;
+    padding: 0 3em;
+  }
+  .label-note{ 
+    padding: 2em 0;
+  }
+  .note-area{ 
+     border:rgb(187, 187, 187) solid;
+    width: 45em;
+    border-radius: 10px;
+    margin-bottom: 3em;
+    min-height: 10em;
+  }
+  .new-note-create { 
+    padding-top:3em
+  }
+  .link-note{ 
+    padding:2em 0;
+  }
+  .find-note-form{ 
+    text-align: center;
+    min-height: 82vh;
+    padding:3em 0 
+  }
+  .form-control{
+    max-width: 20em;
+    box-sizing: border-box
+  }
+  .div-input-note{ 
+    align-items: center;
+    text-align: center;
+    
+  }
+  .input-note{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    
+  }
+  .text-note{ 
+    font-size: 1.5em;
+    padding: 1.5em;
+    border:rgb(187, 187, 187) solid;
+    width:20em;
+    display: block;
+    margin:1em auto;
+  }
